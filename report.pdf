@@ -1,1 +1,73 @@
+# Penetration Testing Simulation Report
+
+## 1. Title
+
+**Penetration Testing Simulation in a Safe Lab Environment**
+
+---
+
+## 2. Objective
+
+To perform a controlled penetration testing simulation in a safe virtual lab environment by setting up a vulnerable machine, conducting reconnaissance, scanning for vulnerabilities, and performing basic exploitation to understand system weaknesses.
+
+---
+
+## 3. Tools Used
+
+* Oracle VM VirtualBox
+* Kali Linux
+* Metasploitable 2
+* Nmap
+* Metasploit Framework
+
+---
+
+## 4. Lab Setup
+
+A virtual penetration testing lab was created using Oracle VM VirtualBox. Kali Linux was configured as the attacker machine, and Metasploitable 2 was used as the vulnerable target machine. Both virtual machines were connected through an isolated network.
+
+---
+
+## 5. Methodology
+
+### Step 1: Reconnaissance
+
+The target machine's IP address was identified using network discovery tools.
+
+### Step 2: Port Scanning
+
+Nmap was used to scan the target system and identify open ports and running services.
+
+### Step 3: Vulnerability Assessment
+
+A vulnerability scan was performed using Nmap scripts to identify known security weaknesses.
+
+### Step 4: Basic Exploitation
+
+The Metasploit Framework was used to demonstrate basic exploitation of an intentionally vulnerable service in the lab environment.
+
+### Step 5: Post-Exploitation
+
+Basic system information, such as the current user and hostname, was verified to confirm successful access.
+
+---
+
+## 6. Results
+
+* Successfully configured the penetration testing lab.
+* Identified the target machine on the local network.
+* Discovered multiple open ports and services.
+* Detected known vulnerabilities.
+* Demonstrated basic exploitation in a controlled environment.
+* Verified system access using basic commands.
+
+---
+
+## 7. Conclusion
+
+This project provided practical experience with the penetration testing process, including reconnaissance, scanning, vulnerability assessment, and basic exploitation.
+It improved understanding of ethical hacking techniques while emphasizing the importance of conducting security testing only in authorized and controlled environments.
+
+
+
 
