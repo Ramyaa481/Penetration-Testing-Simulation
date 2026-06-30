@@ -34,6 +34,35 @@ Identified Vulnerabilities:
 - VSFTPD Backdoor
 - Weak Services
 
+# Screenshots
+
+## 1. Lab Setup
+
+![Lab Setup](screenshots/virtualbox.png)
+
+---
+
+## 2. IP Discovery
+
+![IP Discovery](screenshots/target-ip.png)
+
+---
+
+## 3. Nmap Scan
+
+![Nmap Scan](screenshots/nmap.png)
+
+---
+
+## 4. Vulnerability Scan
+
+![Vulnerability Scan](screenshots/vulnerability-scan.png)
+
+
+## 6. Post Exploitation
+
+![Post Exploitation](screenshots/post-exploitation.png)
+
 ## Conclusion
 
 This project demonstrated the penetration testing lifecycle in an isolated environment without targeting real systems.
